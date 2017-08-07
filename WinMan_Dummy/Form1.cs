@@ -16,5 +16,17 @@ namespace WinMan_Dummy
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You clicked OK!");
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You clicked Cancel!");
+            this.Close();
+        }
     }
 }
